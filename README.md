@@ -8,7 +8,6 @@ This project implements a complete pipeline for text-based sentiment analysis on
 - [Feature Engineering](#feature-engineering)
 - [Classification Algorithms](#classification-algorithms)
 - [Results](#results)
-- [How to Run](#how-to-run)
 - [Dependencies](#dependencies)
 
 ---
@@ -48,7 +47,9 @@ The following algorithms were implemented and compared:
 ---
 
 ## Results
-Each algorithm's performance was evaluated based on metrics such as accuracy, precision, recall, and F1-score. Detailed results and visualizations are provided in the project notebook.
+Each algorithm's performance was evaluated based on metrics such as accuracy, precision, recall, and F1-score. Among the evaluated models, **Support Vector Machine (SVM)** demonstrated the best performance, achieving the highest overall metrics across all categories. Following SVM, **Logistic Regression** emerged as the second-best performer, showcasing robust and reliable results in terms of accuracy, precision, recall, and F1-score. 
+
+Detailed results, along with visualizations highlighting the performance of these algorithms, are provided in the project notebook. These insights underline the effectiveness of SVM for sentiment analysis tasks while also establishing Logistic Regression as a competitive and efficient alternative.
 
 ---
 
