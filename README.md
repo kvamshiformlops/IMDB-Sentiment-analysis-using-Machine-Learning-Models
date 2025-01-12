@@ -32,23 +32,28 @@ This project implements sentiment analysis on IMDB movie reviews using multiple 
 
 ### Models Implemented
 
-1. Logistic Regression
-2. Support Vector Machine (SVM)
-3. Decision Tree
-4. Nu-SVC
-5. Random Forest
-6. Naive Bayes
-7. Gradient Boosting
-8. SGD Classifier
-9. Linear SVC
-10. Neural Network (MLP)
-11. LightGBM
-12. Extra Trees
-13. AdaBoost
-14. Histogram Gradient Boosting
-15. K-Nearest Neighbors
-16. XGBoost
-17. CatBoost
+Certainly! Here's the updated list with brackets around each item:
+
+Sure, here's a brief overview of each model:
+
+1. **[Logistic Regression]**: A statistical model that predicts binary outcomes (yes/no) based on one or more predictor variables.
+2. **[Support Vector Machine (SVM)]**: A supervised learning model that classifies data by finding the best hyperplane that separates all data points into categories.
+3. **[Decision Tree]**: A model that uses a tree-like structure of decisions and their possible consequences, which splits the data into branches to make predictions.
+4. **[Nu-SVC]**: A version of Support Vector Classifier that allows for the control of the number of support vectors and the margin errors.
+5. **[Random Forest]**: An ensemble learning method that creates multiple decision trees and merges them together to get a more accurate and stable prediction.
+6. **[Naive Bayes]**: A simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
+7. **[Gradient Boosting]**: An ensemble technique that builds models sequentially, each correcting the errors of its predecessor to improve accuracy.
+8. **[SGD Classifier]**: A classifier that uses stochastic gradient descent for optimizing the loss function, suitable for large-scale and sparse data.
+9. **[Linear SVC]**: A linear Support Vector Machine used for classification tasks that works by finding the hyperplane that best separates the data.
+10. **[Neural Network (MLP)]**: A multi-layer perceptron that simulates the way the human brain processes information to recognize patterns and make decisions.
+11. **[LightGBM]**: A gradient boosting framework that uses tree-based learning algorithms, designed for speed and efficiency.
+12. **[Extra Trees]**: An ensemble learning method that creates a forest of randomized trees and averages their predictions for improved accuracy and control of overfitting.
+13. **[AdaBoost]**: An ensemble method that combines multiple weak classifiers to form a strong classifier, by focusing on the errors of the previous classifiers.
+14. **[Histogram Gradient Boosting]**: An optimized version of gradient boosting that uses histograms to speed up the training process.
+15. **[K-Nearest Neighbors]**: A non-parametric method that classifies data points based on the majority class among the nearest neighbors.
+16. **[XGBoost]**: An advanced implementation of gradient boosting that focuses on speed and performance, often used in competitive machine learning.
+17. **[CatBoost]**: A gradient boosting library designed specifically for categorical features, aiming for high performance and efficiency.
+
 
 ## 📊 Results
 
@@ -96,7 +101,7 @@ Here are the accuracy scores and hyperparameters for all implemented models:
 - catboost
 - seaborn
 - matplotlib
-- 
+
 
 ## 📈 Future Improvements
 
